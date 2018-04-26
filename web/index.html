@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sphenic numbers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Calculation the sum of n first sphenic numbers</h1>
+        
+        <h3>GET</h3>
+        
+        <form action="Calculations" method="GET">
+            <p>Enter number of sphenic numbers:<input type=text size=20 name=number_of_sphenic_numbers></p>
+            <input type="submit" value="Calculate" />
+        </form>
+        
+        <h3>POST</h3>
+        
+        <form action="Calculations" method="POST">
+            <p>Enter number of sphenic numbers:<input type=text size=20 name=number_of_sphenic_numbers></p>
+            <input type="submit" value="Calculate" />
+        </form>
+        
+        <h3>The history of calculations</h3>
+        
+        <form action="History">
+            <input type="submit" value="View results" />
+        </form>
+    </body>
+</html>
